@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    height: 40px;
+    position: fixed;
+    width: 95%;
+    padding: 10px;
+}
+nav a{ 
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: bisque;
+    border-radius: 20px 0px 20px 0px ;
+    padding: 20px;
+}
+section.home{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url(yoghurtnaya.png) ;
+    background-attachment: fixed;
+}
+section.project{
+    height: 800px;
+    text-align:center;
+}
+section.howto{
+    height:800px;
+    text-align:center;
+}
+.kotakBiotek{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.namaBiotek{
+    font-size: 50px;
+}
+.deskBiotek{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+section.project img{
+    height: 300px;
+}
+.deskProject{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px; 
+
+}
